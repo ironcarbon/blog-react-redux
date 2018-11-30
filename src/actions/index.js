@@ -8,5 +8,5 @@ export const fetchPosts = () => async dispatch => {
   //   payload: promise
   // };
 
-  dispatch({ type: "FETCH_", payload: response });
+  dispatch({ type: "FETCH_POSTS", payload: response.data });
 };
